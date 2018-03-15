@@ -6,8 +6,6 @@ module.exports = {
     },
     // 页面配置
     pages: [
-        'home', 'live', 'search', 'lookat',
-        'lookat-audio', 'lookat-off', 'lookat-yz',
         'test'
     ]
 };
