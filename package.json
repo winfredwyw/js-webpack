@@ -1,0 +1,41 @@
+{
+  "name": "js-webpack",
+  "version": "1.0.0",
+  "description": "基于webpack，模块化js开发脚手架",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev node ./scripts/index.js",
+    "debug": "cross-env NODE_ENV=debug node ./scripts/index.js",
+    "build": "cross-env NODE_ENV=production node ./scripts/index.js"
+  },
+  "keywords": [
+    "webpack",
+    "js"
+  ],
+  "author": "winfred4633",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.1.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-minify-webpack-plugin": "^0.3.0",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.10",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "postcss-loader": "^2.1.1",
+    "precss": "^3.1.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1"
+  }
+}
